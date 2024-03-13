@@ -10,4 +10,8 @@ class AulaController extends Controller
     public function index(){
         return view('exemplo');
     }
+
+    public function update(){
+        return view('aulaUpdate');
+    }
 }

@@ -22,6 +22,9 @@ Route::get('/', function () {
 });
 
 Route::get('/exemplo',[AulaController::class,'index']);
-Route::get('/biblioteca',[AlunoController::class,'index']);
-Route::get('/aluno',[PostController::class,'index']);
-Route::get('/post',[BibliotecaController::class,'index']);
+Route::get('/biblioteca',[BibliotecaController::class,'index']);
+Route::get('/aluno',[AlunoController::class,'index']);
+Route::get('/post',[PostController::class,'index']);
+Route::get('/bibliotecaUpdate',[BibliotecaController::class,'update']);
+Route::get('/alunoUpdate',[AlunoController::class,'update']);
+Route::get('/postUpdate',[PostController::class,'update']);

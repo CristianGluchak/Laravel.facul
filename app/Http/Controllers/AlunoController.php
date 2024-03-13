@@ -10,4 +10,8 @@ class AlunoController extends Controller
     public function index(){
         return view('aluno');
     }
+
+    public function update(){
+        return view('alunoUpdate');
+    }
 }

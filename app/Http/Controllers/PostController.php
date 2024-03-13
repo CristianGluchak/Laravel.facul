@@ -10,4 +10,8 @@ class PostController extends Controller
     public function index(){
         return view('post');
     }
+
+    public function update(){
+        return view('postUpdate');
+    }
 }
