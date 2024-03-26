@@ -16,7 +16,8 @@ class DatabaseSeeder extends Seeder
         FlightsSeeder::class,
         AlunoSeeder::class,
         BibliotecaSeeder::class,
-        PostSeeder::class
+        PostSeeder::class,
+        ContactSeeder::class
        ]);
     }
 }
